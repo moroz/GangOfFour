@@ -1,0 +1,19 @@
+{
+  "name": "GangOfFour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "npx @tailwindcss/cli -i GangOfFour/Content/input.css -o GangOfFour/Content/output.css --watch=always",
+    "css:build": "npx @tailwindcss/cli -i GangOfFour/Content/input.css -o GangOfFour/Content/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.14"
+  }
+}
